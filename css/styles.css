@@ -1,0 +1,73 @@
+:root {
+  --primari-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --actionable-item: #18a0fb;
+  --primari-bg-color: #ffffff;
+}
+
+/* основний #000000 */
+/* color: rgba(0, 0, 0, 0.8) */
+/* color: #FFFFFF; */
+/*  #18A0FB */
+/* вторичний колір фону  #F5F5F5 */
+
+body {
+  background-color: #ffffff;
+  color: var(--primari-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo:hover {
+  color: var(--actionable-item);
+}
+
+/* seit-nav */
+
+.seit-nav .link {
+  color: var(--actionable-item);
+}
+
+.seit-nav .link:hover,
+.seit-nav .link:focus {
+  color: var(--title-text-color);
+}
+
+/* Hero */
+.hero-title {
+  color: var(--title-text-color);
+}
+
+/* section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features*/
+
+.features .title {
+  color: var(--title-text-color);
+}
+
+.features .link {
+  color: var(--actionable-item);
+}
+
+/* Works */
+.work .title {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+.button {
+  background-color: var(--primari-bg-color);
+}
